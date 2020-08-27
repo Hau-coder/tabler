@@ -122,7 +122,7 @@
     "bootstrap": "twbs/bootstrap#81404d2",
     "countup.js": "^2.0.5",
     "daterangepicker": "^3.0.5",
-    "flatpickr": "^4.6.3",
+    "flatpickr": "^4.6.6",
     "fullcalendar": "^3.10.1",
     "imask": "^6.0.3",
     "jquery": "^3.5.0",
