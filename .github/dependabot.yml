@@ -1,0 +1,29 @@
+version: 2
+updates:
+- package-ecosystem: npm
+  directory: "/"
+  schedule:
+    interval: monthly
+  open-pull-requests-limit: 10
+  reviewers:
+  - codecalm
+  labels:
+  - dependencies
+  versioning-strategy: increase
+  ignore:
+  - dependency-name: rollup
+    versions:
+    - 2.35.1
+    - 2.38.3
+  - dependency-name: apexcharts
+    versions:
+    - 3.23.1
+  - dependency-name: percy
+    versions:
+    - 0.28.5
+  - dependency-name: nodemon
+    versions:
+    - 2.0.6
+  - dependency-name: lodash
+    versions:
+    - 4.17.20
